@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="layout-pf layout-pf-fixed">
 <head>
     <meta charset="UTF-8">
     <title>Still need to add in the patternfly refs</title>
@@ -16,6 +16,8 @@
 
     <!-- Bootstrap JS -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 
     <!-- C3, D3 - Charting Libraries -->
     <script src="bower_components/c3/c3.min.js"></script>
@@ -54,66 +56,98 @@
 
     <!-- Google Code Prettify - Syntax highlighting of code snippets -->
     <script src="bower_components/google-code-prettify/bin/prettify.min.js"></script>
+    <script src="bower_components/patternfly/dist/js/patternfly-functions.min.js"></script>
 
     <!-- MatchHeight - Used to make sure dashboard cards are the same height -->
     <script src="bower_components/matchHeight/jquery.matchHeight-min.js"></script>
 </head>
+
 <body  class="cards-pf">
-  <h1>Local Data Viewer</h1>
+
   <nav class="navbar navbar-pf-vertical">
-    <div class="nav-pf-vertical
-     nav-pf-vertical-with-sub-menus
-     nav-pf-persistent-secondary
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a href="/" class="navbar-brand">
+      <img class="navbar-brand-icon" src="bower_components/patternfly/dist/img/logo-alt.svg" alt="PatternFly icon"/>
+      <img class="navbar-brand-name" src="bower_components/patternfly/dist/img/brand-alt.svg" alt="PatternFly Enterprise Application" />
+    </a>
+  </div>
+  <!-- <nav class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right navbar-iconic">
+      <li class="dropdown">
+        <a class="dropdown-toggle nav-item-iconic" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <span title="Notifications" class="fa pficon-flag"></span>
+          <span class="badge">2</span>
+        </a>
+        <div class="dropdown-menu infotip bottom-right">
+          <div class="arrow"></div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <span class="i pficon pficon-info"></span> Modified Datasources ExampleDS
+            </li>
+            <li class="list-group-item">
+              <span class="i pficon pficon-info"></span> Error: System Failure
+            </li>
+          </ul>
+          <div class="footer">
+            <a>Clear Messages</a>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <span title="Help" class="fa pficon-help"></span>
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="#">Help</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <span title="Username" class="fa pficon-user"></span>
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><a href="#">Preferences</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav> -->
+</nav> <!--/.navbar-->
 
-     hidden-icons-pf">
-      <ul class="list-group">
-        <li class="list-group-item">
-              <a>
-                  <span class="fa fa-dashboard" data-toggle="tooltip" title="Dashboard"></span>
-                  <span class="list-group-item-value">Dashboard</span>
-              </a>
-          </li>
-          <li class="list-group-item">
-              <a>
-                  <span class="fa fa-shield" data-toggle="tooltip" title="Dolor"></span>
-                  <span class="list-group-item-value">Dolor</span>
 
-              </a>
-          </li>
-          <li class="list-group-item active secondary-nav-item-pf" data-target="#ipsum-secondary">
-              <a>
-                  <span class="fa fa-space-shuttle" data-toggle="tooltip" title="Ipsum"></span>
-                  <span class="list-group-item-value">Ipsum</span>
-              </a>
+<div class="nav-pf-vertical">
+  <ul class="list-group">
+    <li class="list-group-item">
+      <a>
+        <span class="fa fa-dashboard" data-toggle="tooltip" title="Dashboard"></span>
+        <span class="list-group-item-value">Dashboard</span>
+      </a>
+    </li>
+    <li class="list-group-item active">
+      <a>
+        <span class="fa fa-shield" data-toggle="tooltip" title="Dolor"></span>
+        <span class="list-group-item-value">Dolor</span>
+      </a>
+    </li>
+    <li class="list-group-item">
+      <a>
+        <span class="fa fa-shield" data-toggle="tooltip" title="Dolor"></span>
+        <span class="list-group-item-value">Another Link</span>
+      </a>
+    </li>
 
-              <div id="-secondary" class="nav-pf-secondary-nav">
-                  <div class="nav-item-pf-header"><a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
-                      <span>Ipsum</span>
-                  </div>
-                  <ul class="list-group">
-                      <li class="list-group-item active " data-target="#ipsum-intellegam-tertiary">
-                          <a>
-                              <span class="list-group-item-value">Intellegam</span>
-                          </a>
+  </ul>
+</div>
 
-                      </li>
-                      <li class="list-group-item " data-target="#ipsum-copiosae-tertiary">
-                          <a>
-                              <span class="list-group-item-value">Copiosae</span>
-                          </a>
-
-                      </li>
-                      <li class="list-group-item " data-target="#ipsum-patrioque-tertiary">
-                          <a>
-                              <span class="list-group-item-value">Patrioque</span>
-                          </a>
-
-                      </li>
-
-                  </ul>
-
-                </div>
-        </li>
-      </ul>
 </body>
+
 </html>
