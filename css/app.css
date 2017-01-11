@@ -1,0 +1,6 @@
+/* positions the map to fill the entire screen */
+.map{
+  height: calc(100vh - 72px);
+  margin-left: -20px;
+  margin-right: -20px;
+}
