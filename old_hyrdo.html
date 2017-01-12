@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="layout-pf layout-pf-fixed">
 <head>
     <meta charset="UTF-8">
-    <title>PattrnFly horizontal nav example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
+    <title>Still need to add in the patternfly refs</title>
     <!-- PatternFly Styles -->
     <link href="bower_components/patternfly/dist/css/patternfly.min.css" rel="stylesheet" media="screen, print">
     <link href="bower_components/patternfly/dist/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
@@ -19,53 +17,83 @@
     <!-- Note: jquery.dataTables.js must occur in the html source before patternfly*.js.-->
     <script src="bower_components/patternfly/dist/js/patternfly.min.js"></script>
     <script src="bower_components/patternfly/dist/js/patternfly-functions.min.js"></script>
-
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
   <script type="text/javascript" src="../js/leaflet-providers.js"></script>
-  <link rel="stylesheet" href="css/app.css" />
+  <!--
+  #map {
+      height: 100%;
+      font-family: 'Milonga', cursive;
+    }
+  -->
+
+  <style type="text/css">
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    #map {
+      height: 800px;
+      font-family: 'Milonga', cursive;
+    }
+    .leaflet-container .leaflet-control-zoom {
+      margin-left: 13px;
+      margin-top: 70px;
+    }
+  </style>
+>
 </head>
 
-<body>
+<body  class="cards-pf">
 
-<nav class="navbar navbar-default navbar-pf" role="navigation">
+  <nav class="navbar navbar-pf-vertical">
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="/">
-      <img src="bower_components/patternfly/dist/img/brand.svg" alt="PatternFly Enterprise Application" />
+    <a href="/" class="navbar-brand">
+      <img class="navbar-brand-icon" src="bower_components/patternfly/dist/img/logo-alt.svg" alt="PatternFly icon"/>
+      <img class="navbar-brand-name" src="bower_components/patternfly/dist/img/brand-alt.svg" alt="PatternFly Enterprise Application" />
     </a>
   </div>
-  <div class="collapse navbar-collapse navbar-collapse-1">
-    <ul class="nav navbar-nav navbar-primary">
-      <li>
-        <a href="index.html">Home</a>
+</nav> <!--/.navbar-->
+
+
+  <div class="nav-pf-vertical">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <a href="index.html">
+          <span class="fa fa-dashboard" data-toggle="tooltip" title="Dashboard"></span>
+          <span class="list-group-item-value">Dashboard</span>
+        </a>
       </li>
-      <li>
-        <a href="ebird.html">Birds</a>
+      <li class="list-group-item">
+        <a href="birds.html">
+          <span class="fa fa-shield" data-toggle="tooltip" title="Birds"></span>
+          <span class="list-group-item-value">Birds</span>
+        </a>
       </li>
-      <li class="active">
-        <a href="hydro.html">Hydrology</a>
+      <li class="list-group-item active">
+        <a href="hydro.html">
+          <span class="fa fa-shield" data-toggle="tooltip" title="Hydro"></span>
+          <span class="list-group-item-value">Hydro</span>
+        </a>
       </li>
+
     </ul>
-  </div>
-</nav>
+  </div><!-- ends vertical nav -->
 
-<div class="container-fluid">
-  <div id="map" class="map"><h1>Birds on a Map</h1></div>
-</div><!-- ends container -->
+  <h1>Add some base layers</h1>
+  <div id="map"></div>
 
-</body>
-<script>
-      var map = L.map('map').setView([42.35, -71.06], 12);
+
+  <script>
+      var map = L.map('map').setView([37.038, -122.06], 11);
       var markerLayerGroup = L.layerGroup().addTo(map);
-      L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          maxZoom: 18,
-          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+      var stamenLayer = L.tileLayer.provider('Stamen.Terrain').addTo(map);
+
+
+      L.tileLayer('http://geoserver-local.apps.data.molw.io/geoserver/gwc/service/tms/1.0.0/molw%3AFor+Birds@EPSG%3A900913@png/{z}/{x}/{y}.png', {
+          maxzoom: 18,
+          opacity: 0.6,
+          tms: true
       }).addTo(map);
 
 
@@ -98,4 +126,7 @@
        */
 
   </script>
+
+</body>
+
 </html>
