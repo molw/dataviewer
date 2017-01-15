@@ -56,11 +56,9 @@
   </div>
 </nav>
 
+<!-- Maybe this will show up on top -->
 <div class="container-fluid">
-  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-  turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor
-  sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies
-  mi vitae est. Mauris placerat eleifend leo.
+
 </div><!-- ends container -->
 
   <div id="map" class="map"><h1>Birds on a Map</h1></div>
@@ -78,33 +76,25 @@
     }).addTo(map);
 
 
-    /*
-     function getPins(e){
-     bounds = map.getBounds();
-     url = "ws/parks/within?lat1=" + bounds.getNorthEast().lat + "&lon1=" + bounds.getNorthEast().lng + "&lat2=" + bounds.getSouthWest().lat + "&lon2=" + bounds.getSouthWest().lng;
-     $.get(url, pinTheMap, "json")
-     }
+    function getPins(e){
+        bounds = map.getBounds();
+        url = "http://postgisservice-local.apps.data.molw.io/ws/birds/byspecies/Horned%20Puffin";
+        $.get(url, pinTheMap, "json")
+    }
 
-     function pinTheMap(data){
-     //clear the current pins
-     map.removeLayer(markerLayerGroup);
+    function pinTheMap(data) {
+        //clear the current pins
+        map.removeLayer(markerLayerGroup);
 
-     //add the new pins
-     var markerArray = new Array(data.length)
-     for (var i = 0; i < data.length; i++){
-     birdObs = data[i];
-     markerArray[i] = L.marker([birdObs.pos[1], birdObs.pos[0]]).bindPopup(birdObs.Name);
-     }
+        //add the new pins
+        var markerArray = new Array(data.length)
+        for (var i = 0; i < data.length; i++) {
+            birdObs = data[i];
+            markerArray[i] = L.marker([birdObs.coords[1], birdObs.coords[0]]).bindPopup(birdObs.startTime);
+        }
 
-     markerLayerGroup = L.layerGroup(markerArray).addTo(map);
-
-
-     }
-
-     map.on('dragend', getPins);
-     map.on('zoomend', getPins);
-     map.whenReady(getPins)
-     */
+        markerLayerGroup = L.layerGroup(markerArray).addTo(map);
+    }
 
   </script>
 </html>
