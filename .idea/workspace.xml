@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79560718-9ee0-41e3-90c4-5c1863023d92" name="Default" comment="maybe pins">
+    <list default="true" id="79560718-9ee0-41e3-90c4-5c1863023d92" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebird.html" afterPath="$PROJECT_DIR$/ebird.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_hyrdo.html" afterPath="$PROJECT_DIR$/old_hyrdo.html" />
     </list>
     <ignored path="dataviewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ebird.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ebird.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ebird.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+            <state relative-caret-position="363">
+              <caret line="98" column="26" lean-forward="false" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="old_hyrdo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="old_hyrdo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/old_hyrdo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="117" column="63" lean-forward="false" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
+            <state relative-caret-position="306">
+              <caret line="123" column="29" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -90,8 +89,8 @@
         <option value="$PROJECT_DIR$/birds.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/hydro.html" />
-        <option value="$PROJECT_DIR$/ebird.html" />
         <option value="$PROJECT_DIR$/old_hyrdo.html" />
+        <option value="$PROJECT_DIR$/ebird.html" />
       </list>
     </option>
   </component>
@@ -581,7 +580,7 @@
       <workItem from="1484117170738" duration="9328000" />
       <workItem from="1484215503568" duration="4084000" />
       <workItem from="1484280677238" duration="612000" />
-      <workItem from="1484463280463" duration="973000" />
+      <workItem from="1484463280463" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="Created Patternfly">
       <created>1483751738737</created>
@@ -639,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484463667946</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="maybe pins">
+      <created>1484464261228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484464261228</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22467000" />
+    <option name="totallyTimeSpent" value="22717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -877,18 +883,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird.html">
+    <entry file="file://$PROJECT_DIR$/old_hyrdo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="123" column="29" lean-forward="true" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old_hyrdo.html">
+    <entry file="file://$PROJECT_DIR$/ebird.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="117" column="63" lean-forward="false" selection-start-line="117" selection-start-column="63" selection-end-line="117" selection-end-column="63" />
+        <state relative-caret-position="363">
+          <caret line="98" column="26" lean-forward="false" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
           <folding />
         </state>
       </provider>
