@@ -126,7 +126,7 @@
         var markerArray = new Array(data.length)
         for (var i = 0; i < data.length; i++) {
             birdObs = data[i];
-            markerArray[i] = L.marker([birdObs.coords[1], birdObs.coords[0]]).bindPopup(birdObs.startTime + "\n Bird Seen:" + birdObs.commonName);
+            markerArray[i] = L.marker([birdObs.coords[1], birdObs.coords[0]]).bindPopup("<h4>Bird Seen: " + birdObs.commonName + "</h4><p> Date: " + birdObs.startTime + "</p>");
         }
 
         markerLayerGroup = L.layerGroup(markerArray).addTo(map);
