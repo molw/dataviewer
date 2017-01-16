@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79560718-9ee0-41e3-90c4-5c1863023d92" name="Default" comment="Working on Drop select">
+    <list default="true" id="79560718-9ee0-41e3-90c4-5c1863023d92" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ebird2.html" afterPath="$PROJECT_DIR$/ebird_old.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebird.html" afterPath="$PROJECT_DIR$/ebird.html" />
     </list>
@@ -25,22 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ebird.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ebird.html">
+      <file leaf-file-name="ebird_old.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ebird_old.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="220">
               <caret line="61" column="88" lean-forward="false" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ebird2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebird2.html">
+      <file leaf-file-name="ebird.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebird.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
               <caret line="78" column="90" lean-forward="false" selection-start-line="78" selection-start-column="90" selection-end-line="78" selection-end-column="90" />
-              <folding />
+              <folding>
+                <marker date="1484529221587" expanded="true" signature="21:4515" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="1346:3335" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2354:3227" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2387:3207" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2431:3197" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2459:3186" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2627:3173" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2667:3158" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2702:3142" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="2827:3125" ph="..." />
+                <marker date="1484529221587" expanded="true" signature="3344:4507" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -558,7 +571,7 @@
       <workItem from="1484215503568" duration="4084000" />
       <workItem from="1484280677238" duration="612000" />
       <workItem from="1484463280463" duration="10962000" />
-      <workItem from="1484528991349" duration="378000" />
+      <workItem from="1484528991349" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="Created Patternfly">
       <created>1483751738737</created>
@@ -644,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484529254420</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Working on Drop select">
+      <created>1484529380194</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484529380194</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32834000" />
+    <option name="totallyTimeSpent" value="33740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -660,7 +680,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5021645" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2592179" sideWeight="0.4978355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21535982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -669,15 +691,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -703,9 +723,9 @@
     <MESSAGE value="minor zoom level change" />
     <MESSAGE value="debugging" />
     <MESSAGE value="maybe pins" />
-    <MESSAGE value="Working on Drop select" />
     <MESSAGE value="Seeing if I can get new design to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seeing if I can get new design to work" />
+    <MESSAGE value="Working on Drop select" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Drop select" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -716,7 +736,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebird.html">
+    <entry file="file://$PROJECT_DIR$/ebird_old.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -731,7 +751,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird.html">
+    <entry file="file://$PROJECT_DIR$/ebird_old.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
@@ -760,7 +780,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird.html">
+    <entry file="file://$PROJECT_DIR$/ebird_old.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
@@ -867,17 +887,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird2.html">
+    <entry file="file://$PROJECT_DIR$/ebird.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="78" column="90" lean-forward="false" selection-start-line="78" selection-start-column="90" selection-end-line="78" selection-end-column="90" />
-          <folding />
+          <folding>
+            <marker date="1484529221587" expanded="true" signature="21:4515" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="1346:3335" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2354:3227" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2387:3207" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2431:3197" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2459:3186" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2627:3173" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2667:3158" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2702:3142" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="2827:3125" ph="..." />
+            <marker date="1484529221587" expanded="true" signature="3344:4507" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird.html">
+    <entry file="file://$PROJECT_DIR$/ebird_old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="220">
           <caret line="61" column="88" lean-forward="false" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="88" />
           <folding />
         </state>

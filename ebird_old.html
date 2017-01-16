@@ -53,49 +53,32 @@
         <a href="hydro.html">Hydrology</a>
       </li>
     </ul>
+    <!-- trying to get a form in the nav bar -->
+    <div class="container">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="col-sm-2 control-label" form="exampleInput">Pick a Bird</label>
+          <div class="col-sm-10">
+            <select id="birdSelect" class="form-control" onChange="getPins(this.value);">
+              <option value="Horned Puffin">Horned Puffin</option>
+              <option value="Short-tailed Shearwater">Short-tailed Shearwater</option>
+              <option value="Black-chinned Hummingbird">Black-chinned Hummingbird</option>
+            </select>
+
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
-<!-- trying to get a form in the nav bar -->
-  <div class="container">
-  </div>
+
 </nav>
 
-
-<div class="container-fluid container-cards-pf">
-  <div class="row row-cards-pf">
-
-    <div class="col-sm-3 col-md-offset-9">
-      <div class="card-pf">
-        <div class="card-pf-heading">
-          <h2 class="card-pf-title">
-            Birds on a Map
-          </h2>
-        </div>
-        <div class="card-pf-body">
-
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label class="sr-only control-label" form="exampleInput">Pick a Bird</label>
-            <div class="col-sm-12">
-              <select id="birdSelect" class="form-control" onChange="getPins(this.value);">
-                <option>Horned Puffin</option>
-                <option>Short-tailed Shearwater</option>
-                <option>Black-chinned Hummingbird</option>
-              </select>
-            </div>
-          </div>
-        </form>
-        </div>
-      </div>
-    </div>
-
-  </div><!-- /row -->
-</div>
-
 <!-- Maybe this will show up on top -->
-<!-- ends container -->
+<div class="container-fluid">
 
-<div id="map" class="map"></div>
+</div><!-- ends container -->
 
+  <div id="map" class="map"><h1>Birds on a Map</h1></div>
 </body>
 <script>
     var map = L.map('map').setView([37.038, -122.06], 11);
