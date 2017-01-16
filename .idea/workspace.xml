@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79560718-9ee0-41e3-90c4-5c1863023d92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/observers.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hydro.html" afterPath="$PROJECT_DIR$/observers_old.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/birds.html" afterPath="$PROJECT_DIR$/birds.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebird.html" afterPath="$PROJECT_DIR$/ebird.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebird_old.html" afterPath="$PROJECT_DIR$/ebird_old.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-vertical.html" afterPath="$PROJECT_DIR$/index-vertical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/old_hyrdo.html" afterPath="$PROJECT_DIR$/old_hyrdo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observers.html" afterPath="$PROJECT_DIR$/observers.html" />
     </list>
     <ignored path="dataviewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +28,8 @@
       <file leaf-file-name="observers.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/observers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-704">
-              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="440">
+              <caret line="128" column="144" lean-forward="false" selection-start-line="128" selection-start-column="144" selection-end-line="128" selection-end-column="144" />
               <folding />
             </state>
           </provider>
@@ -97,7 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,8 +133,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,7 +550,8 @@
       <workItem from="1484215503568" duration="4084000" />
       <workItem from="1484280677238" duration="612000" />
       <workItem from="1484463280463" duration="10962000" />
-      <workItem from="1484528991349" duration="2184000" />
+      <workItem from="1484528991349" duration="3018000" />
+      <workItem from="1484535319360" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="Created Patternfly">
       <created>1483751738737</created>
@@ -657,11 +651,25 @@
       <option name="project" value="LOCAL" />
       <updated>1484530302401</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adding a new Map">
+      <created>1484534405606</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1484534405606</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adding a new Map for observers">
+      <created>1484534633361</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1484534633361</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34640000" />
+    <option name="totallyTimeSpent" value="35524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -678,7 +686,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21535982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21858217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -719,7 +727,9 @@
     <MESSAGE value="Seeing if I can get new design to work" />
     <MESSAGE value="Working on Drop select" />
     <MESSAGE value="Much nicer with layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Much nicer with layout" />
+    <MESSAGE value="Adding a new Map" />
+    <MESSAGE value="Adding a new Map for observers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a new Map for observers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -730,11 +740,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebird_old.html">
+    <entry file="file://$PROJECT_DIR$/observers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebird_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -742,9 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
           <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="42" />
-          <folding>
-            <marker date="1484534093276" expanded="true" signature="2975:2981" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
           <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="42" />
-          <folding>
-            <marker date="1484534093276" expanded="true" signature="2975:2981" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding>
-            <marker date="1484534093276" expanded="true" signature="2975:2981" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,9 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484534093276" expanded="true" signature="2975:2981" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,9 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1484534093276" expanded="true" signature="2975:2981" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="123" column="29" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,16 +907,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-          <folding>
-            <marker date="1484534093276" expanded="true" signature="2975:2981" ph="©" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/observers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="440">
+          <caret line="128" column="144" lean-forward="false" selection-start-line="128" selection-start-column="144" selection-end-line="128" selection-end-column="144" />
           <folding />
         </state>
       </provider>
