@@ -114,7 +114,7 @@
 
     function getPins( bird){
         bounds = map.getBounds();
-        url = "http://postgisservice-local.apps.data.molw.io/ws/birds/byspecies/"+bird;
+        url = "http://postgisservice-local.apps.data.molw.io/ws/birds/byobserver/"+bird;
         $.get(url, pinTheMap, "json")
     }
 
