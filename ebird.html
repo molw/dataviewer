@@ -53,23 +53,24 @@
         <a href="hydro.html">Hydrology</a>
       </li>
     </ul>
-  </div>
-<!-- trying to get a form in the nav bar -->
-  <div class="container">
-  <form class="form-horizontal">
-    <div class="form-group">
-      <label class="col-sm-2 control-label" form="exampleInput">Pick a Bird</label>
-      <div class="col-sm-10">
-        <select id="birdSelect" class="form-control">
-          <option>Horned Puffin</option>
-          <option>Short-tailed Shearwater</option>
-          <option>Black-chinned Hummingbird</option>
-        </select>
+    <!-- trying to get a form in the nav bar -->
+    <div class="container">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="col-sm-2 control-label" form="exampleInput">Pick a Bird</label>
+          <div class="col-sm-10">
+            <select id="birdSelect" class="form-control" onChange="getPins(this.value);">
+              <option value="Horned Puffin">Horned Puffin</option>
+              <option value="Short-tailed Shearwater">Short-tailed Shearwater</option>
+              <option value="Black-chinned Hummingbird">Black-chinned Hummingbird</option>
+            </select>
 
-      </div>
+          </div>
+        </div>
+      </form>
     </div>
-  </form>
   </div>
+
 </nav>
 
 <!-- Maybe this will show up on top -->
@@ -92,9 +93,9 @@
     }).addTo(map);
 
 
-    function getPins(e){
+    function getPins( bird){
         bounds = map.getBounds();
-        url = "http://postgisservice-local.apps.data.molw.io/ws/birds/byspecies/Horned%20Puffin";
+        url = "http://postgisservice-local.apps.data.molw.io/ws/birds/byspecies/"+bird;
         $.get(url, pinTheMap, "json")
     }
 
@@ -112,7 +113,7 @@
         markerLayerGroup = L.layerGroup(markerArray).addTo(map);
     }
 
-    map.whenReady(getPins)
+    map.whenReady(getPins("Horned Puffin"))
 
   </script>
 </html>
