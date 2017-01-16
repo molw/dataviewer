@@ -76,7 +76,7 @@
           <div class="form-group">
             <label class="sr-only control-label" form="exampleInput">Pick a Bird</label>
             <div class="col-sm-12">
-              <select id="birdSelect" class="form-control">
+              <select id="birdSelect" class="form-control" onChange="getPins(this.value);">
                 <option>Horned Puffin</option>
                 <option>Short-tailed Shearwater</option>
                 <option>Black-chinned Hummingbird</option>
@@ -110,9 +110,9 @@
     }).addTo(map);
 
 
-    function getPins(e){
+    function getPins( bird){
         bounds = map.getBounds();
-        url = "http://postgisservice-local.apps.data.molw.io/ws/birds/byspecies/Horned%20Puffin";
+        url = "http://postgisservice-local.apps.data.molw.io/ws/birds/byspecies/"+bird;
         $.get(url, pinTheMap, "json")
     }
 
@@ -130,7 +130,7 @@
         markerLayerGroup = L.layerGroup(markerArray).addTo(map);
     }
 
-    map.whenReady(getPins)
+    map.whenReady(getPins("Horned Puffin"))
 
   </script>
 </html>
