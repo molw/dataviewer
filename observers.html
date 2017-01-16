@@ -46,39 +46,58 @@
       <li>
         <a href="index.html">Home</a>
       </li>
-      <li class="active">
+      <li>
         <a href="ebird.html">Birds</a>
       </li>
-      <li>
+      <li class="active">
         <a href="observers.html">Observers</a>
       </li>
     </ul>
-    <!-- trying to get a form in the nav bar -->
-    <div class="container">
-      <form class="form-horizontal">
-        <div class="form-group">
-          <label class="col-sm-2 control-label" form="exampleInput">Pick a Bird</label>
-          <div class="col-sm-10">
-            <select id="birdSelect" class="form-control" onChange="getPins(this.value);">
-              <option value="Horned Puffin">Horned Puffin</option>
-              <option value="Short-tailed Shearwater">Short-tailed Shearwater</option>
-              <option value="Black-chinned Hummingbird">Black-chinned Hummingbird</option>
-            </select>
-
-          </div>
-        </div>
-      </form>
-    </div>
   </div>
-
+<!-- trying to get a form in the nav bar -->
+  <div class="container">
+  </div>
 </nav>
 
+
+<div class="container-fluid container-cards-pf">
+  <div class="row row-cards-pf">
+
+    <div class="col-sm-3 col-md-offset-9">
+      <div class="card-pf">
+        <div class="card-pf-heading">
+          <h2 class="card-pf-title">
+            Observers on a Map
+          </h2>
+        </div>
+        <div class="card-pf-body">
+
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="sr-only control-label" form="exampleInput">Pick an Observer</label>
+            <div class="col-sm-12">
+              <select id="birdSelect" class="form-control" onChange="getPins(this.value);">
+                <option>obsr297438</option>
+                <option>obsr302446</option>
+                <option>obsr535069</option>
+                <option>obsr187159</option>
+                <option>obsr90708</option>
+              </select>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /row -->
+</div>
+
 <!-- Maybe this will show up on top -->
-<div class="container-fluid">
+<!-- ends container -->
 
-</div><!-- ends container -->
+<div id="map" class="map"></div>
 
-  <div id="map" class="map"><h1>Birds on a Map</h1></div>
 </body>
 <script>
     var map = L.map('map').setView([37.038, -122.06], 11);
@@ -113,7 +132,7 @@
         markerLayerGroup = L.layerGroup(markerArray).addTo(map);
     }
 
-    map.whenReady(getPins("Horned Puffin"))
+    map.whenReady(getPins("obsr297438"))
 
   </script>
 </html>
