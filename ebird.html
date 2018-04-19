@@ -107,9 +107,9 @@
 
     L.tileLayer.wms('https://geoserver-route-molw.apps.thesteve0.openshiftworkshop.com/geoserver/ows?', {
         layers: 'molw:birds',
-        maxzoom: 18,
-        opacity: 0.6,
-        tms: true
+        format: 'image/png',
+        transparent: true,
+        version: '1.1.1'
     }).addTo(map);
 
 
