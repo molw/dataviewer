@@ -105,7 +105,7 @@
     var stamenLayer = L.tileLayer.provider('Stamen.Terrain').addTo(map);
 
 
-    L.tileLayer.wms('https://geoserver-route-molw.apps.thesteve0.openshiftworkshop.com/geoserver/ows?', {
+    L.tileLayer.wms('http://geoserver-route-molw.apps.thesteve0.openshiftworkshop.com/geoserver/ows?', {
         layers: 'molw:birds',
         format: 'image/png',
         transparent: true,
