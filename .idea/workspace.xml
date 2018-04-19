@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79560718-9ee0-41e3-90c4-5c1863023d92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ebird.html" afterPath="$PROJECT_DIR$/ebird.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/observers.html" afterPath="$PROJECT_DIR$/observers.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebird.html" beforeDir="false" afterPath="$PROJECT_DIR$/ebird.html" afterDir="false" />
     </list>
     <ignored path="dataviewer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,22 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="observers.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="observers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/observers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="134" column="37" lean-forward="false" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="2278">
+              <caret line="134" column="37" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ebird.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ebird.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ebird.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="134" column="37" lean-forward="false" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -48,8 +45,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="884">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
               <folding>
                 <marker date="1513620183430" expanded="true" signature="2975:2981" ph="©" />
               </folding>
@@ -60,9 +57,8 @@
       <file leaf-file-name="index-vertical.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-vertical.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="74" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1258">
+              <caret line="74" selection-start-line="71" selection-start-column="5" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -70,8 +66,8 @@
       <file leaf-file-name="birds.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/birds.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="459">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
                 <marker date="1513620182168" expanded="true" signature="3293:3299" ph="©" />
               </folding>
@@ -99,11 +95,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -116,8 +107,8 @@
         <option value="$PROJECT_DIR$/ebird_old.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/ebird.html" />
         <option value="$PROJECT_DIR$/observers.html" />
+        <option value="$PROJECT_DIR$/ebird.html" />
       </list>
     </option>
   </component>
@@ -127,6 +118,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/bower_components/bootstrap-datepicker/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bootstrap-touchspin/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/eonasdan-bootstrap-datetimepicker/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/google-code-prettify/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/matchHeight/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/patternfly-bootstrap-treeview/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/patternfly/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-6" />
     <option name="y" value="1" />
@@ -134,21 +137,12 @@
     <option name="height" value="1045" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,18 +154,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JSON" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../postgisservice" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JSON" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -192,37 +184,12 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -232,24 +199,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -262,15 +218,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -400,6 +353,13 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -598,14 +558,14 @@
       <envs />
       <method />
     </configuration>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -622,7 +582,9 @@
       <workItem from="1484463280463" duration="10962000" />
       <workItem from="1484528991349" duration="3018000" />
       <workItem from="1484535319360" duration="380000" />
-      <workItem from="1515527745307" duration="7808000" />
+      <workItem from="1515527745307" duration="7832000" />
+      <workItem from="1524092090300" duration="807000" />
+      <workItem from="1524171518236" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="Created Patternfly">
       <created>1483751738737</created>
@@ -757,47 +719,64 @@
       <option name="project" value="LOCAL" />
       <updated>1515635735123</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="minor change">
+      <created>1515646075170</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1515646075170</updated>
+    </task>
+    <task id="LOCAL-00021" summary="url update">
+      <created>1524173646547</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1524173646547</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43662000" />
+    <option name="totallyTimeSpent" value="47403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="1" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5021645" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631016" sideWeight="0.4978355" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21920668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Regex Tester" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021645" side_tool="true" weight="0.3297062" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4978355" visible="true" weight="0.2628205" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Jenkins" order="4" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21920668" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Learn" order="2" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,11 +809,9 @@
     <MESSAGE value="Better popup" />
     <MESSAGE value="new urls" />
     <MESSAGE value="updated drop downs" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated drop downs" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <MESSAGE value="minor change" />
+    <MESSAGE value="url update" />
+    <option name="LAST_COMMIT_MESSAGE" value="url update" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -843,55 +820,96 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/observers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/observers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebird_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2278">
+          <caret line="134" column="37" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <marker date="1513620183430" expanded="true" signature="2975:2981" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-vertical.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" selection-start-line="71" selection-start-column="5" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/birds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <marker date="1513620182168" expanded="true" signature="3293:3299" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebird.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="82" selection-start-line="107" selection-start-column="82" selection-end-line="107" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/observers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="37" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebird.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="37" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <marker date="1513620183430" expanded="true" signature="2975:2981" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-vertical.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" selection-start-line="71" selection-start-column="5" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/birds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <marker date="1513620182168" expanded="true" signature="3293:3299" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebird_old.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
-          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="42" />
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/observers_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_hyrdo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ebird_old.html" />
+    <entry file="file://$PROJECT_DIR$/observers_old.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -899,118 +917,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/observers_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_hyrdo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ebird_old.html" />
+    <entry file="file://$PROJECT_DIR$/observers_old.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
-          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/birds.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/observers_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/observers_old.html" />
     <entry file="file://$PROJECT_DIR$/map-horizontal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-982">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-982" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-horizontal.html" />
-    <entry file="file://$PROJECT_DIR$/observers_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/observers_old.html" />
     <entry file="file://$PROJECT_DIR$/old_hyrdo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="123" column="29" lean-forward="false" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="29" />
+          <caret line="123" column="29" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ebird_old.html" />
     <entry file="file://$PROJECT_DIR$/index-vertical.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="74" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1258">
+          <caret line="74" selection-start-line="71" selection-start-column="5" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/birds.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="459">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <marker date="1513620182168" expanded="true" signature="3293:3299" ph="©" />
           </folding>
@@ -1019,27 +968,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state relative-caret-position="884">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
           <folding>
             <marker date="1513620183430" expanded="true" signature="2975:2981" ph="©" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebird.html">
+    <entry file="file://$PROJECT_DIR$/observers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="134" column="37" lean-forward="false" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="2278">
+          <caret line="134" column="37" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/observers.html">
+    <entry file="file://$PROJECT_DIR$/ebird.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="134" column="37" lean-forward="false" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
         </state>
       </provider>
     </entry>
